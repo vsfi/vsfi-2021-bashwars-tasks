@@ -1,0 +1,5 @@
+# for i in $(seq $(git rev-list $(git branch | cut -d' ' -f2) --count) -1 1); do if $(git diff HEAD~$i HEAD~$(($i-1)) 2>/dev/null | grep -q AFX_NO_MFC_CONTROLS_IN_DIALOGS); then git rev-parse HEAD~$(($i-1)); break; fi;  done
+d85d05a515dcd29c41d2bb4113aeadbee6722c6f
+
+# git log -S AFX_NO_MFC_CONTROLS_IN_DIALOGS --source refs/remotes/origin/xy_sub_filter_rc3 2>/dev/null | grep commit | tail -n 1
+commit d85d05a515dcd29c41d2bb4113aeadbee6722c6f	refs/remotes/origin/xy_sub_filter_rc3

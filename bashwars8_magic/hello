@@ -1,0 +1,8 @@
+#!/bin/sh
+cat /home/banner.txt
+cd /root
+
+FLASK_APP=main.py flask run --host=0.0.0.0 1>/dev/null 2>&1 &
+
+cd /tmp
+su magic

@@ -1,0 +1,5 @@
+#!/bin/sh
+cat /home/banner.txt
+cd /home/blitz
+
+su blitz
