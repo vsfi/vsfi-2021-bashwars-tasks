@@ -2,7 +2,7 @@
 
 if [[ "$1" = "9531" && "$2" = "Ugolini" && "$3" = "two-spirit pangender transexual woman" ]];
 then
-	echo "{U_Golini_hui_v_vagini!}"
+	echo "{U_Bobra_hatka_dobra!}"
 else 
 	echo "Не угадал нифига"
 fi
