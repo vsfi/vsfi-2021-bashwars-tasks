@@ -45,11 +45,12 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
-    setuid( 0 );   // you can set it at run time also
-    ssize_t bufsz = snprintf(NULL, 0, "/home/blitz/test.sh %s %s %s", escapeshellarg(argv[1]), escapeshellarg(argv[2]), escapeshellarg(argv[3]));
-	char* buf = malloc(bufsz + 1);
-	snprintf(buf, bufsz + 1, "/home/blitz/test.sh %s %s %s", escapeshellarg(argv[1]), escapeshellarg(argv[2]), escapeshellarg(argv[3]));
+    setuid( 0 );   
 
-    system(buf);
+    ssize_t cmdsz = snprintf(NULL, 0, "/home/blitz/test.sh %s %s %s", escapeshellarg(argv[1]), escapeshellarg(argv[2]), escapeshellarg(argv[3]));
+	char* cmd = malloc(cmdsz + 1);
+	snprintf(cmd, cmdsz + 1, "/home/blitz/test.sh %s %s %s", escapeshellarg(argv[1]), escapeshellarg(argv[2]), escapeshellarg(argv[3]));
+    system(cmd);
+
     return 0;
  }
