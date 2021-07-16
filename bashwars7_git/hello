@@ -1,5 +1,6 @@
 #!/bin/sh 
 echo "Найди самый ранний комит в текущем бранче, в котором добавилась подстрока AFX_NO_MFC_CONTROLS_IN_DIALOGS"
+echo "Проверь себя - правильный ответ в bashwars/bashwars7_git/solution"
 
 sh
 
