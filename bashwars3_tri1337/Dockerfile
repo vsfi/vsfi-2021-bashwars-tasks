@@ -7,8 +7,9 @@ COPY hello /home/
 RUN chmod +x /home/hello
 
 RUN adduser -D elite 
-RUN chmod -R 666 /tmp/*
-RUN chmod -R 777 /tmp/files
+
+RUN chmod -R 744 /tmp/files
+RUN chmod 755 /tmp/files
 
 
 USER elite
