@@ -12,8 +12,8 @@ app = Flask(__name__)
 LEVELS = [
     'myFirstLevel',
     'mySecondLevel',
-    'tyPidor',
-    'aYaNePidorKstati'
+    'TrippleAwesomePchitz',
+    'wobWobDaSoundOf'
 ]
 COOKIE_PREFIX='bashwars-cookie-'
 FAIL_MESSAGE = {"error":"Sorry, your princess is in another castle"}
