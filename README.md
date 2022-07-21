@@ -1,20 +1,25 @@
+# Disclaimer
+**One liners are bad for your health.**
+
+**We do not guarantee that you won't be fired or punished for using one-liner in your daliy routine.**
+
+**All one-liners are 18+, we do not propagate one-liners among underage people.**
+
+## Quote
+*I can quit one-liners at any time, I did it many times before*
+
 # WARRIORS!
 
 9 tasks - 9 flags. 
 Your quest is to create a one line bash script that retreives the final result.  
 
-### Example: 
-There is a line in some file in local directore that starts with "PEW" 
-```
-grep -R PEW . | cut -d':' -f2 
-PEW_PEW_PEW_PEW
-```
-### Quick start:
-```
-cd bashwars1_popit
-docker build . -t popit
-docker run -it popit
-```
+## Usage
+
+`cd folder-with-task`  
+`docker build . -t task`  
+`docker run -it --rm task`
+
+Read the banner and write one-liner to get the right answer. 
 
 # Kudos
 - VSFI
