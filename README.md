@@ -1,3 +1,6 @@
+# WARNING: the repo has been moved to https://github.com/vsfi/bashwars/tree/main/2021
+
+
 # Disclaimer
 **One liners are bad for your health.**
 
