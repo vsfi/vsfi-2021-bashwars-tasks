@@ -1,4 +1,4 @@
-# WARNING: the repo has been moved to https://github.com/vsfi/bashwars/tree/main/2021
+# WARNING: the repo has been moved to https://github.com/vsfi/bashwars/
 
 
 # Disclaimer
